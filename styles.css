@@ -1,0 +1,42 @@
+table,
+th,
+tr, 
+td 
+ {
+    color: hsla(0, 0%, 3%, 0.712);
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.orange {
+    background-color: rgb(255, 165, 0);
+}
+
+.yellow {
+    background-color: hsl(60, 100%, 50%);
+}
+
+.green {
+    background-color: #008000;
+}
+
+.cyan {
+    background-color: rgb(0, 255, 255);
+}
+
+.blue {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.violet {
+    background-color: rgb(238, 130, 238);
+}
+
+.alpha {
+    background-color: hsla(0, 0%, 100%, 0.356);
+}
