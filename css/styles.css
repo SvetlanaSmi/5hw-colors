@@ -3,40 +3,119 @@ th,
 tr, 
 td 
  {
-    color: hsla(0, 0%, 3%, 0.712);
+    color: hsla(0, 0%, 3%, 0.856);
     border: 1px solid black;
     border-spacing: 0;
     border-collapse: collapse;
 }
 
-.red {
+.red .hex {
     background-color: #ff0000;
 }
 
-.orange {
+.red .rgb {
+    background-color: rgb(255, 0, 0);
+}
+ .red .hsl {
+     background-color: hsl(0, 100%, 50%) ;
+}
+
+ .red .alpha {
+     background-color: hsla(0, 100%, 50%, 0.733);
+}
+
+.orange .hex {
+    background-color: #ffa500;
+}
+
+.orange .rgb {
     background-color: rgb(255, 165, 0);
 }
 
-.yellow {
+.orange .hsl {
+    background-color: hsl(39, 100%, 50%);
+}
+
+.orange .alpha {
+    background-color: hsla(39, 100%, 50%, 0.733);
+}
+
+.yellow .hex {
+    background-color: #ffff00;
+}
+
+.yellow .rgb {
+    background-color: rgb(255, 255, 0);
+}
+
+.yellow .hsl {
     background-color: hsl(60, 100%, 50%);
 }
 
-.green {
+.yellow .alpha {
+    background-color: hsla(60, 100%, 50%, 0.76);
+}
+
+.green .hex {
     background-color: #008000;
 }
 
-.cyan {
+.green .rgb {
+    background-color: rgb(0, 128, 0);
+}
+
+.green .hsl {
+    background-color: hsl(120, 100%, 25%);
+}
+
+.green .alpha {
+    background-color: hsla(120, 100%, 25%, 0.616);
+}
+
+.cyan .hex {
+    background-color: #00ffff;
+}
+
+.cyan .rgb {
     background-color: rgb(0, 255, 255);
 }
 
-.blue {
+.cyan .hsl {
+    background-color: hsl(180, 100%, 50%);
+}
+
+.cyan .alpha {
+    background-color: hsla(180, 100%, 50%, 0.74);
+}
+
+.blue .hex {
+    background-color: #0000ff;
+}
+
+.blue .rgb {
+    background-color: rgb(0, 0, 255);
+}
+
+.blue .hsl {
     background-color: hsl(240, 100%, 50%);
 }
 
-.violet {
+.blue .alpha {
+    background-color: hsla(240, 100%, 50%, 0.589);
+}
+
+.violet .hex {
+    background-color: #ee82ee;
+}
+
+.violet .rgb {
     background-color: rgb(238, 130, 238);
 }
 
-.alpha {
-    background-color: hsla(0, 0%, 100%, 0.356);
+.violet .hsl {
+    background-color: hsl(300, 76%, 72%);
+}
+
+.violet .alpha {
+    background-color: hsla(300, 76%, 72%, 0.753);
 }
